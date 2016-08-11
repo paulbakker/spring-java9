@@ -1,0 +1,1 @@
+java -Dorg.slf4j.simpleLogger.defaultLogLevel=trace -mp mods:out -addmods spring.aop,spring.beans,spring.core,java.sql,spring.expression,spring.jdbc,spring.orm,spring.tx,slf4j.api,slf4j.simple,jcl.over.slf4j -cp config -m bootstrap/demo.bootstrapper.Main
